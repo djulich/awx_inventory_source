@@ -1,0 +1,17 @@
+ungrouped:
+  hosts:
+    8.8.8.8
+
+group1:
+  hosts:
+    1.1.1.1
+
+group2:
+  hosts:
+    2.1.1.1
+
+parent1:
+  children:
+    group1:
+    group2:
+
